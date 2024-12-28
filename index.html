@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div id="particles"></div>
+    <h1>TV Time Tracker</h1>
+    <h2>How Much Time Have You Spent Watching TV Today?</h2>
+
+    <div class="input-container">
+        <input type="text" id="movieName" placeholder="Enter Movie or Series Name...">
+        <input type="text" id="seasonNumber" placeholder="Season (Optional)">
+        <input type="text" id="episodeNumber" placeholder="Episode (Optional)">
+        <button id="addButton">Add Entry</button>
+    </div>
+
+    <ul id="entryList">
+
+    </ul>
+
+    <ul id="totalTimeContainer">
+        <h3>Total Time Spent Watching TV: <span id="totalTime">0</span> minutes</h3>
+    </ul>
+
+    <script src="magic.js"></script>
+</body>
+
+<footer>
+    <p>Powered by <a href="https://www.themoviedb.org/" target="_blank">
+        <img src="/home/muhammed/tv_tracker/TMDb Logo.svg" alt="TMDb Logo" class="tmdb-logo">
+    </a></p>
+</footer>
+
+</html>
