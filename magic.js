@@ -1,5 +1,3 @@
-const TMDB_API_KEY = '24c9041972e6e959fd5a037b15c682a9';
-
 document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('addButton');
     const movieNameInput = document.getElementById('movieName');
