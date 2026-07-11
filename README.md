@@ -45,7 +45,7 @@ I also improved the original version by adding a small Express backend so the TM
 
 ## Screenshots
 
-![TV Time Tracker home screen](tv-tracker-homepage.png)
+![TV Time Tracker home screen](tv-tracker-screenshot.png)
 
 ## API Security
 
