@@ -126,7 +126,7 @@ async function addEntry() {
 
     // Create full movie/series name with season and episode info
     const fullMovieName = `${movieName}${seasonNumber && episodeNumber ? ` Season ${seasonNumber}, Episode ${episodeNumber}` : ''}`;
-    const duration = await fetchMovieOrEpisodeDuration(fullMovieName, seasonNumber, episodeNumber);
+    const duration = await fetchMovieOrEpisodeDuration(movieName, seasonNumber, episodeNumber);
 
     if (duration !== null) {
         // Create the entry content
